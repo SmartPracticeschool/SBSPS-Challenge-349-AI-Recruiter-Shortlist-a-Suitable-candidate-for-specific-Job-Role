@@ -1,0 +1,3981 @@
+{
+  "intents": [
+    {
+      "intent": "introduction",
+      "examples": [
+        {
+          "text": "all good"
+        },
+        {
+          "text": "totally fine"
+        },
+        {
+          "text": "yep"
+        },
+        {
+          "text": "i am good"
+        },
+        {
+          "text": "ok"
+        },
+        {
+          "text": "fine"
+        },
+        {
+          "text": "yes"
+        },
+        {
+          "text": "yuss"
+        },
+        {
+          "text": "yeah"
+        },
+        {
+          "text": "i am okay"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "init",
+      "examples": [
+        {
+          "text": "__init__ is a method or constructor in Python. This method is automatically called to allocate memory when a new object/ instance of a class is created. All classes have the __init__ method. Here is an example of how to use it."
+        },
+        {
+          "text": "The __init__ function is called a constructor, or initializer, and is automatically called when you create a new instance of a class. Within that function, the newly created object is assigned to the parameter self . The notation self. legs is an attribute called legs of the object in the variable self ."
+        },
+        {
+          "text": "\"__init__\" is a reseved method in python classes. It is called as a constructor in object oriented terminology. This method is called when an object is created from a class and it allows the class to initialize the attributes of the class."
+        }
+      ],
+      "description": "What is __init__"
+    },
+    {
+      "intent": "name",
+      "examples": [
+        {
+          "text": "myself"
+        },
+        {
+          "text": "sayali"
+        },
+        {
+          "text": "my name is"
+        },
+        {
+          "text": "i am"
+        }
+      ],
+      "description": "name of a candidate"
+    },
+    {
+      "intent": "NER_USED",
+      "examples": [
+        {
+          "text": "Scanning documents for classification, customer support(chatbots, understanding feedback) and entity identification in molecular biology(names of genes etc.,)"
+        },
+        {
+          "text": "To put it simply, NER deals with extracting the real-world entity from the text such as a person, an organization, or an event. Named Entity Recognition is also simply known as entity identification, entity chunking, and entity extraction. They are quite similar to POS(part-of-speech) tags."
+        },
+        {
+          "text": "The primary objective is to locate and classify named entities in text into predefined categories such as the names of persons, organizations, locations, events, expressions of times, quantities, monetary values, percentages, etc."
+        }
+      ],
+      "description": "Where can NER be used?"
+    },
+    {
+      "intent": "namespace",
+      "examples": [
+        {
+          "text": "A namespace is a declarative region that provides a scope to the identifiers (the names of types, functions, variables, etc) inside it. Namespaces are used to organize code into logical groups and to prevent name collisions that can occur especially when your code base includes multiple libraries."
+        },
+        {
+          "text": "A namespace is a naming system used to make sure that names are unique to avoid naming conflicts."
+        },
+        {
+          "text": "Namespace is a way to implement scope."
+        },
+        {
+          "text": "In Python, each package, module, class, function and method function owns a \"namespace\" in which variable names are resolved. When a function, module or package is evaluated (that is, starts execution), a namespace is created."
+        },
+        {
+          "text": "A namespace is a system to have a unique name for each and every object in Python. An object might be a variable or a method. Python itself maintains a namespace in the form of a Python dictionary. ... Its Name (which means name, an unique identifier) + Space(which talks something related to scope)."
+        },
+        {
+          "text": "A namespace is basically a system to make sure that all the names in a program are unique and can be used without any conflict. You might already know that everything in Python—like strings, lists, functions, etc. —is an object. Another interesting fact is that Python implements namespaces as dictionaries."
+        },
+        {
+          "text": "In programming languages. For many programming languages, namespace is a context for their identifiers. In an operating system, an example of namespace is a directory. Each name in a directory uniquely identifies one file or subdirectory."
+        },
+        {
+          "text": "Namespaces. Generally speaking, a namespace (sometimes also called a context) is a naming system for making names unique to avoid ambiguity. ... Namespaces in Python are implemented as Python dictionaries, this means it is a mapping from names (keys) to objects (values)."
+        }
+      ],
+      "description": "question 2 of python"
+    },
+    {
+      "intent": "PIPELINE",
+      "examples": [
+        {
+          "text": "Feature generation(Bag of words)"
+        },
+        {
+          "text": "Deployment of the model."
+        },
+        {
+          "text": "Making adjustments to the model"
+        },
+        {
+          "text": "Training the model by leveraging neural nets or regression techniques"
+        },
+        {
+          "text": "Model evaluation"
+        },
+        {
+          "text": "Text gathering(web scraping or available datasets)"
+        },
+        {
+          "text": "Text cleaning(stemming, lemmatization)"
+        },
+        {
+          "text": "Embedding and sentence representation(word2vec)"
+        }
+      ],
+      "description": "NLP pipeline consist of"
+    },
+    {
+      "intent": "py_code",
+      "examples": [
+        {
+          "text": "answers is 7"
+        },
+        {
+          "text": "seven"
+        },
+        {
+          "text": "7"
+        }
+      ],
+      "description": "coding part"
+    },
+    {
+      "intent": "python_founder",
+      "examples": [
+        {
+          "text": "python founder is Guido van Rossum"
+        },
+        {
+          "text": "Guido van Rossum"
+        }
+      ],
+      "description": "answers"
+    },
+    {
+      "intent": "self_information",
+      "examples": [
+        {
+          "text": "\"I have been in the customer service industry for the past five years. My most recent experience has been handling incoming calls in the high tech industry. One reason I particularly enjoy this business, and the challenges that go along with it, is the opportunity to connect with people. In my last job, I formed some significant customer relationships resulting in a 30 percent increase in sales in a matter of months.\""
+        },
+        {
+          "text": "My real strength is my attention to detail. I pride myself on my reputation for following through and meeting deadlines. When I commit to doing something, I make sure it gets done, and on time.\""
+        },
+        {
+          "text": "\"What I am looking for now is a company that values customer relations, where I can join a strong team and have a positive impact on customer retention and sales.\""
+        },
+        {
+          "text": "Sure! So I've always enjoyed writing and public speaking, even going back to high school. This led me to pursue writing-related passions, for example in college, where I was an editor for our school newspaper. In addition to writing, I got to learn how to manage a team and the writing process. After college, I took a job at Acme as a social media manager, writing copy and social content for the company blog, but I raised my hand to work on the communications plan for a product launch which is where I discovered my interest in product marketing. After switching to a product marketing role and managing the two most successful new product launches last year, I realized I'm excited to take on a new role. I've learned I work best on products that I love and use, and given that I'm a big user of your company’s products I jumped at the chance to apply when I saw the open posting."
+        },
+        {
+          "text": "I've been in the marketing industry for over five years, primarily working in account and project management roles. I most recently worked as a senior PM for a large tech company managing large marketing campaigns and overseeing other project managers. And now I'm looking to expand my experience across different industries, particularly fintech, which is why I'm so interested in joining an agency like yours."
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "modules",
+      "examples": [
+        {
+          "text": "print() and input() for I/O, number conversion functions int() , float() , complex() , data type conversions list() , tuple() , set()"
+        },
+        {
+          "text": "type, str, dir, and all the rest of Python's built-in functions are grouped into a special module called __ builtin __ ."
+        },
+        {
+          "text": "Some of the commonly used built-in modules are: os sys math random data time JSON"
+        }
+      ],
+      "description": "python in-built modules"
+    },
+    {
+      "intent": "CLOUD",
+      "examples": [
+        {
+          "text": "Cloud computing is an internet based new age computer technology. It is the next stage technology that uses the clouds to provide the services whenever and wherever the user need it.It provides a method to access several servers world wide."
+        },
+        {
+          "text": "In the simplest terms, cloud computing means storing and accessing data and programs over the Internet instead of your computer's hard drive. The cloud is just a metaphor for the Internet. ... When you store data on or run programs from the hard drive, that's called local storage and computing."
+        },
+        {
+          "text": "Cloud computing services fall into 4 categories: infrastructure as a service (IaaS), platform as a service (PaaS), software as a service (SaaS) and FaaS (functions as a service). These are sometimes called the cloud computing stack, because they build on top of one another"
+        },
+        {
+          "text": "Cloud Computing is the use of hardware and software to deliver a service over a network (typically the Internet). ... An example of a Cloud Computing provider is Google's Gmail. Gmail users can access files and applications hosted by Google via the internet from any device."
+        },
+        {
+          "text": "the practice of using a network of remote servers hosted on the Internet to store, manage, and process data, rather than a local server or a personal computer."
+        },
+        {
+          "text": "Benefits of cloud computing Reduced IT costs. Moving to cloud computing may reduce the cost of managing and maintaining your IT systems. ... Scalability. ... Business continuity. ... Collaboration efficiency. ... Flexibility of work practices. ... Access to automatic updates. ... Also consider..."
+        },
+        {
+          "text": "Cloud computing is an application-based software infrastructure that stores data on remote serves, which can be accessed through the internet. ... The front end enables a user to access data stored in the cloud using an internet browser or a cloud computing software."
+        }
+      ],
+      "description": "What is cloud computing?"
+    },
+    {
+      "intent": "DEPLOY",
+      "examples": [
+        {
+          "text": "These are the different deployment model in cloud computing: Private cloud Public cloud Hybrid cloud Community cloud"
+        }
+      ],
+      "description": "What are the different models for deployment in cloud computing?"
+    },
+    {
+      "intent": "NER",
+      "examples": [
+        {
+          "text": "Named Entity Recognition"
+        }
+      ],
+      "description": "NER"
+    },
+    {
+      "intent": "LAYERS",
+      "examples": [
+        {
+          "text": "Following are the different layers that are used by cloud architecture: CLC or Cloud Controller Walrus Cluster Controller SC or Storage Controller NC or Node Controller"
+        }
+      ],
+      "description": "Which are the different layers that define cloud architecture?"
+    }
+  ],
+  "entities": [
+    {
+      "entity": "companyplans",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Silver Plans",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Platinum Plans",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Gold Plans",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "candidate_name",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "girls name",
+          "synonyms": [
+            "sayali",
+            "shreeya",
+            "varsha",
+            "pranoti",
+            "sanika",
+            "rutuja",
+            "sangita",
+            "anuja",
+            "gayatri",
+            "shruti",
+            "puja",
+            "kavita",
+            "dipali",
+            "aradhya",
+            "suharshi",
+            "punam",
+            "amruta",
+            "dwarika",
+            "malu",
+            "sanketa",
+            "sunita",
+            "surekha",
+            "gita",
+            "rekha",
+            "manisha",
+            "sushma",
+            "rajshri",
+            "niharika"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "boys name",
+          "synonyms": [
+            "shivam",
+            "oshin",
+            "shree",
+            "sanket",
+            "abhi",
+            "vishwajit",
+            "umesh",
+            "rushikesh",
+            "namdev",
+            "sandip",
+            "parth",
+            "ritwik",
+            "shubham",
+            "adhiraj",
+            "bapuso",
+            "mahipati",
+            "rangrao",
+            "sachin",
+            "rohit",
+            "rohan",
+            "raj",
+            "dipak"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "name",
+          "synonyms": [
+            "myself",
+            "i am",
+            "full name",
+            "first name",
+            "middle name",
+            "surname"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "que_last",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "py4",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "py5",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "cloud2",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "nlp3",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "selection",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "two",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "ten",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "four",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "No",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "zero",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "eight",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "six",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "companyservices",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "yes",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "No",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "email",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "email",
+          "synonyms": [
+            "gmail",
+            "hot mail",
+            "hotmail",
+            "yahoo",
+            "business mail",
+            "id",
+            "mail id",
+            "mail",
+            "emails",
+            "ids",
+            "webmail",
+            "aol",
+            "msn",
+            "googlemail",
+            "fastmail",
+            "ymail",
+            "imap"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "agreedisagree",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "If not click here",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "If yes click here",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "aptitude",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "EXAMPLE",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "yeah",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "nope",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "yes",
+          "synonyms": [
+            "yeah",
+            "okay",
+            "yep",
+            "oh",
+            "so",
+            "sure",
+            "yup",
+            "nope",
+            "hmmm",
+            "hmm",
+            "uh",
+            "hey",
+            "alright",
+            "ok",
+            "huh",
+            "really",
+            "hmmmm",
+            "nah",
+            "too",
+            "ummm"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "D",
+          "synonyms": [
+            "B",
+            "C"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "correct",
+          "synonyms": [
+            "wrong"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "A",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "1",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "2",
+          "synonyms": [
+            "3",
+            "4"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "done",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "set",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "all done",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "all set",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "a.",
+          "synonyms": [
+            "b.",
+            "d."
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "c.",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "A.]",
+          "synonyms": [
+            "B.]",
+            "C.]"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "D.]",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "1]",
+          "synonyms": [
+            "3]",
+            "4]"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "2]",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "READY FOR THE NEXT",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "sys-time",
+      "values": [],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "ifchoseWFH",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Afternoon",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Morning",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Night Shifts",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Evening",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "joining",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "immediately",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "within 30 days",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "more than 30 days",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "projects",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "No",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Yes",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "WFH",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "I prefer WORK FROM HOME",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Yes",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Can come to office but WFH is perfered",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "freetime",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "4 hours",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "3 hours",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "2 hours",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "covidalert",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "No,But I will look into it",
+          "synonyms": [
+            "No,But I will look into that"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "yes",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "teamProject",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Yes",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "No",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "developer",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Cloud Developer",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Python developer",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "NLP Developer",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "experience",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "1-3 years",
+          "synonyms": [
+            "4+ years"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Fresher",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "earlyJob",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Pay raise",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Boss issue",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Personal issues",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "internetconnectivity",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Excellent",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Optimum",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Bad",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "sys-date",
+      "values": [],
+      "fuzzy_match": true
+    }
+  ],
+  "metadata": {
+    "api_version": {
+      "major_version": "v2",
+      "minor_version": "2018-11-08"
+    }
+  },
+  "webhooks": [
+    {
+      "url": "https://eu-gb.functions.cloud.ibm.com/api/v1/web/si05202000315%40smartinternz.com_dev/default/challenge",
+      "name": "main_webhook",
+      "headers": []
+    }
+  ],
+  "dialog_nodes": [
+    {
+      "type": "standard",
+      "title": "no",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Thank you."
+              },
+              {
+                "text": "All the best for your future"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "parent": "node_4_1593941947902",
+      "conditions": "@selection:No",
+      "dialog_node": "node_1_1593943017520",
+      "previous_sibling": "node_9_1593075913101"
+    },
+    {
+      "type": "standard",
+      "title": "job_opening",
+      "parent": "node_4_1593941947902",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "@aptitude:yes",
+      "dialog_node": "node_9_1593075913101"
+    },
+    {
+      "type": "standard",
+      "title": "GoodInternet",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Congratulation! , as you look good for our Interview Process you will be contacted soon for the same. Please wait for our mail"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_8_1593948269392",
+      "conditions": "@internetconnectivity != \"Bad\"",
+      "dialog_node": "node_10_1593948269392",
+      "previous_sibling": "node_9_1593948269392"
+    },
+    {
+      "type": "standard",
+      "title": "BadInternet",
+      "output": {
+        "generic": [
+          {
+            "title": "We are really sorry ,but good Internet Connectivity is a Strong Requirement for Work From Home feature.",
+            "options": [],
+            "description": "Try again sometime , Thank you for your time.",
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_8_1593948269392",
+      "conditions": "@internetconnectivity:Bad",
+      "dialog_node": "node_9_1593948269392"
+    },
+    {
+      "type": "standard",
+      "title": "yes project no team",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Sorry we are searching for the experienced candidate."
+              },
+              {
+                "text": "All The Best for your upcoming future."
+              },
+              {
+                "text": "Thank you"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "parent": "node_2_1593158515412",
+      "conditions": "@projects:No",
+      "dialog_node": "node_3_1593599443230",
+      "previous_sibling": "node_9_1593599145979"
+    },
+    {
+      "type": "standard",
+      "title": "yes project yes team",
+      "output": {
+        "generic": [
+          {
+            "title": "Was it a team project?",
+            "options": [
+              {
+                "label": "Yes",
+                "value": {
+                  "input": {
+                    "text": "Yes"
+                  }
+                }
+              },
+              {
+                "label": "No",
+                "value": {
+                  "input": {
+                    "text": "No"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_2_1593158515412",
+      "conditions": "@projects:Yes",
+      "dialog_node": "node_9_1593599145979"
+    },
+    {
+      "type": "standard",
+      "title": "Welcome - copy1",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Hello. I am RecruiteBot"
+              },
+              {
+                "text": "I have been assigned to Pre-qualify candidates and schedule an interview for SSON Company "
+              },
+              {
+                "text": "Let's start by your name , Tell me your name :"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "parent": "node_9_1593940537017",
+      "conditions": "welcome",
+      "dialog_node": "node_1_1594108728705"
+    },
+    {
+      "type": "standard",
+      "title": "nlp2",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Long form of NER?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1593947692824",
+      "conditions": "#PIPELINE",
+      "dialog_node": "node_10_1593947758932"
+    },
+    {
+      "type": "standard",
+      "title": "if chose WFH",
+      "output": {
+        "generic": [
+          {
+            "title": "Which time would you prefer to work ?",
+            "options": [
+              {
+                "label": "Morning",
+                "value": {
+                  "input": {
+                    "text": "Morning"
+                  }
+                }
+              },
+              {
+                "label": "Afternoon",
+                "value": {
+                  "input": {
+                    "text": "Afternoon"
+                  }
+                }
+              },
+              {
+                "label": "Evening",
+                "value": {
+                  "input": {
+                    "text": "Evening"
+                  }
+                }
+              },
+              {
+                "label": "Night Shifts",
+                "value": {
+                  "input": {
+                    "text": "Night Shifts"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_4_1593948269392",
+      "conditions": "@WFH:(I prefer WORK FROM HOME)",
+      "dialog_node": "node_7_1593948269392",
+      "previous_sibling": "node_5_1593948269392"
+    },
+    {
+      "type": "standard",
+      "title": "Covid Alert",
+      "output": {
+        "generic": [
+          {
+            "title": "Are you well aware of various COVID-19 precautions ?",
+            "options": [
+              {
+                "label": "Yes",
+                "value": {
+                  "input": {
+                    "text": "Yes"
+                  }
+                }
+              },
+              {
+                "label": "No, But I will look into that",
+                "value": {
+                  "input": {
+                    "text": "No,But I will look into that"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_4_1593948269392",
+      "conditions": "@WFH != \"I prefer WORK FROM HOME\"",
+      "dialog_node": "node_5_1593948269392"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "CORRECT"
+              },
+              {
+                "text": "Make sure that you're Ticking the box for correct answer in-front of 3rd question on you paper."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          },
+          {
+            "title": "ALL SET",
+            "options": [
+              {
+                "label": "ALL SET",
+                "value": {
+                  "input": {
+                    "text": "ALL SET"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_3_1593936907003",
+      "conditions": "@aptitude:(c.)",
+      "dialog_node": "response_6_1593936949619",
+      "previous_sibling": "node_1_1593937450159"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "WRONG"
+              },
+              {
+                "text": "Make sure that you're Ticking the box for wrong answer in-front of 3rd question on you paper."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          },
+          {
+            "title": "all set?",
+            "options": [
+              {
+                "label": "all set",
+                "value": {
+                  "input": {
+                    "text": "all set"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_3_1593936907003",
+      "conditions": "@aptitude:(a.)",
+      "dialog_node": "response_10_1593937029937",
+      "previous_sibling": "response_6_1593936949619"
+    },
+    {
+      "type": "standard",
+      "title": "que4",
+      "output": {
+        "generic": [
+          {
+            "title": "A train running at the speed of 60 km/hr crosses a pole in 9 seconds. What is the length of the train?",
+            "options": [
+              {
+                "label": "A.] 120 metres ",
+                "value": {
+                  "input": {
+                    "text": "A.]"
+                  }
+                }
+              },
+              {
+                "label": "B.]\t180 metres ",
+                "value": {
+                  "input": {
+                    "text": "B.]"
+                  }
+                }
+              },
+              {
+                "label": "C.]\t324 metres",
+                "value": {
+                  "input": {
+                    "text": "C.]"
+                  }
+                }
+              },
+              {
+                "label": " D.]\t150 metres",
+                "value": {
+                  "input": {
+                    "text": "D.]"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_3_1593936907003",
+      "conditions": "@aptitude:(all set)",
+      "dialog_node": "node_1_1593937450159"
+    },
+    {
+      "type": "standard",
+      "title": "IfChoseNightshifts",
+      "output": {
+        "generic": [
+          {
+            "title": "Well we assume Night Shifts do not have any internet issues ?",
+            "options": [
+              {
+                "label": "If we are right, click here",
+                "value": {
+                  "input": {
+                    "text": "If we are right, click here"
+                  }
+                }
+              },
+              {
+                "label": "If not, click here",
+                "value": {
+                  "input": {
+                    "text": "If not, click here"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_7_1593948269392",
+      "conditions": "@ifchoseWFH:(Night Shifts)",
+      "dialog_node": "node_11_1593948269392",
+      "previous_sibling": "node_8_1593948269392"
+    },
+    {
+      "type": "standard",
+      "title": "TimeToWork",
+      "output": {
+        "generic": [
+          {
+            "title": "Is Internet Connectivity Proper at your Area ?",
+            "options": [
+              {
+                "label": "Bad",
+                "value": {
+                  "input": {
+                    "text": "Bad"
+                  }
+                }
+              },
+              {
+                "label": "Optimum",
+                "value": {
+                  "input": {
+                    "text": "Optimum"
+                  }
+                }
+              },
+              {
+                "label": "Excellent",
+                "value": {
+                  "input": {
+                    "text": "Excellent"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_7_1593948269392",
+      "conditions": "@ifchoseWFH != \"Night Shifts\"",
+      "dialog_node": "node_8_1593948269392"
+    },
+    {
+      "type": "standard",
+      "title": "2",
+      "parent": "node_4_1593933439257",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "@aptitude:1 || @aptitude:2",
+      "dialog_node": "node_5_1593933911580"
+    },
+    {
+      "type": "standard",
+      "title": "no ex but yes project",
+      "output": {
+        "generic": [
+          {
+            "title": "Have you done any projects or currently doing one?",
+            "options": [
+              {
+                "label": "Yes",
+                "value": {
+                  "input": {
+                    "text": "Yes"
+                  }
+                }
+              },
+              {
+                "label": "No",
+                "value": {
+                  "input": {
+                    "text": "No"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_20_1593948294210",
+      "conditions": "@experience:(No experience)",
+      "dialog_node": "node_34_1593948294214",
+      "previous_sibling": "node_21_1593948294214"
+    },
+    {
+      "type": "standard",
+      "title": "exp",
+      "output": {
+        "generic": [
+          {
+            "title": "How soon can you join us?",
+            "options": [
+              {
+                "label": "Immediately",
+                "value": {
+                  "input": {
+                    "text": "Immediately"
+                  }
+                }
+              },
+              {
+                "label": "within 30 days",
+                "value": {
+                  "input": {
+                    "text": " within 30 days"
+                  }
+                }
+              },
+              {
+                "label": "More than 30 days",
+                "value": {
+                  "input": {
+                    "text": "More than 30 days"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_20_1593948294210",
+      "conditions": "@experience:(1-3 years)",
+      "dialog_node": "node_21_1593948294214"
+    },
+    {
+      "type": "standard",
+      "title": "if chose WFH",
+      "output": {
+        "generic": [
+          {
+            "title": "Which time would you prefer to work ?",
+            "options": [
+              {
+                "label": "Morning",
+                "value": {
+                  "input": {
+                    "text": "Morning"
+                  }
+                }
+              },
+              {
+                "label": "Afternoon",
+                "value": {
+                  "input": {
+                    "text": "Afternoon"
+                  }
+                }
+              },
+              {
+                "label": "Evening",
+                "value": {
+                  "input": {
+                    "text": "Evening"
+                  }
+                }
+              },
+              {
+                "label": "Night Shifts",
+                "value": {
+                  "input": {
+                    "text": "Night Shifts"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_23_1593948294214",
+      "conditions": "@WFH:(I prefer WORK FROM HOME)",
+      "dialog_node": "node_26_1593948294214",
+      "previous_sibling": "node_24_1593948294214"
+    },
+    {
+      "type": "standard",
+      "title": "Covid Alert",
+      "output": {
+        "generic": [
+          {
+            "title": "Are you well aware of various COVID-19 precautions ?",
+            "options": [
+              {
+                "label": "Yes",
+                "value": {
+                  "input": {
+                    "text": "Yes"
+                  }
+                }
+              },
+              {
+                "label": "No, But I will look into that",
+                "value": {
+                  "input": {
+                    "text": "No,But I will look into that"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_23_1593948294214",
+      "conditions": "@WFH != \"I prefer WORK FROM HOME\"",
+      "dialog_node": "node_24_1593948294214"
+    },
+    {
+      "type": "standard",
+      "title": "WFH_status - boss issues",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Sorry but all the up and downs are the part of our journey , try next time."
+              },
+              {
+                "text": "Thank you."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "parent": "node_3_1593948269392",
+      "conditions": "@earlyJob:(Boss issue) ||    @earlyJob:(Pay raise)",
+      "dialog_node": "node_14_1593948269392",
+      "previous_sibling": "node_4_1593948269392"
+    },
+    {
+      "type": "standard",
+      "title": "WFH_status",
+      "output": {
+        "generic": [
+          {
+            "title": "Are you willing to come to office for work(during COVID-19 situation)",
+            "options": [
+              {
+                "label": "Yes",
+                "value": {
+                  "input": {
+                    "text": "Yes"
+                  }
+                }
+              },
+              {
+                "label": "I prefer WORK FROM HOME",
+                "value": {
+                  "input": {
+                    "text": "I prefer WORK FROM HOME"
+                  }
+                }
+              },
+              {
+                "label": "Can come to office but WFH is prefered",
+                "value": {
+                  "input": {
+                    "text": "Can come to office but WFH is prefered"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_3_1593948269392",
+      "conditions": "@earlyJob:(Personal issues) ||    @earlyJob:(Pay raise)",
+      "dialog_node": "node_4_1593948269392"
+    },
+    {
+      "type": "standard",
+      "title": "After covid alert",
+      "output": {
+        "generic": [
+          {
+            "title": "Ok Then Be Ready for your Interview Good Luck",
+            "options": [],
+            "description": "we will contact you soon",
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_5_1593948269392",
+      "conditions": "@covidalert:yes || @covidalert:(No,But I will look into it)",
+      "dialog_node": "node_6_1593948269392"
+    },
+    {
+      "type": "standard",
+      "title": "After covid alert",
+      "output": {
+        "generic": [
+          {
+            "title": "Ok Then Be Ready for your Interview Good Luck",
+            "options": [],
+            "description": "we will contact you soon",
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_3_1593614655503",
+      "conditions": "@covidalert:yes || @covidalert:(No,But I will look into it)",
+      "dialog_node": "node_4_1593614946365"
+    },
+    {
+      "type": "standard",
+      "title": "PY2",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Name some commonly used built-in modules in Python?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_7_1593944058126",
+      "conditions": "#python_founder",
+      "dialog_node": "node_4_1593947449576"
+    },
+    {
+      "type": "standard",
+      "title": "Ifyes",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Congratulation! , as you look good for our Interview Process you will be contacted soon for the same. Please wait for our mail"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_30_1593948294214",
+      "conditions": "@agreedisagree:(If yes click here)",
+      "dialog_node": "node_32_1593948294214",
+      "previous_sibling": "node_31_1593948294214"
+    },
+    {
+      "type": "standard",
+      "title": "IfNot",
+      "output": {
+        "generic": [
+          {
+            "title": "We are really sorry ,but good Internet Connectivity is a Strong Requirement for Work From Home feature.",
+            "options": [],
+            "description": "Try again sometime , Thank you for your time.",
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_30_1593948294214",
+      "conditions": "@agreedisagree:(If not click here)",
+      "dialog_node": "node_31_1593948294214"
+    },
+    {
+      "type": "standard",
+      "title": "WFH_status - boss issues",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Sorry but all the up and downs are the part of our journey , try next time."
+              },
+              {
+                "text": "Thank you."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "parent": "node_9_1593603442863",
+      "conditions": "@earlyJob:(Boss issue) ||    @earlyJob:(Pay raise)",
+      "dialog_node": "node_2_1593604428214",
+      "previous_sibling": "node_9_1593603963074"
+    },
+    {
+      "type": "standard",
+      "title": "WFH_status",
+      "output": {
+        "generic": [
+          {
+            "title": "Are you willing to come to office for work(during COVID-19 situation)",
+            "options": [
+              {
+                "label": "Yes",
+                "value": {
+                  "input": {
+                    "text": "Yes"
+                  }
+                }
+              },
+              {
+                "label": "I prefer WORK FROM HOME",
+                "value": {
+                  "input": {
+                    "text": "I prefer WORK FROM HOME"
+                  }
+                }
+              },
+              {
+                "label": "Can come to office but WFH is prefered",
+                "value": {
+                  "input": {
+                    "text": "Can come to office but WFH is prefered"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_9_1593603442863",
+      "conditions": "@earlyJob:(Personal issues) ||    @earlyJob:(Pay raise)",
+      "dialog_node": "node_9_1593603963074"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "These are very low marks."
+              },
+              {
+                "text": "Come again us next time."
+              },
+              {
+                "text": "Thank you."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "parent": "node_7_1593941237671",
+      "conditions": "@selection:zero || @selection:two || @selection:four",
+      "dialog_node": "response_1_1593941266260",
+      "previous_sibling": "node_2_1594108780760"
+    },
+    {
+      "type": "standard",
+      "title": "Welcome - copy1",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Hello. I am RecruiteBot"
+              },
+              {
+                "text": "I have been assigned to Pre-qualify candidates and schedule an interview for SSON Company "
+              },
+              {
+                "text": "Let's start by your name , Tell me your name :"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "parent": "node_7_1593941237671",
+      "conditions": "@selection:zero || @selection:two || @selection:four",
+      "dialog_node": "node_2_1594108780760"
+    },
+    {
+      "type": "standard",
+      "title": "1",
+      "parent": "node_7_1593931152688",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "@aptitude:A || @aptitude:D",
+      "dialog_node": "node_3_1593931958282"
+    },
+    {
+      "type": "standard",
+      "title": "previousJob",
+      "output": {
+        "generic": [
+          {
+            "title": "Why did you leave your pervious job",
+            "options": [
+              {
+                "label": "Pay raise",
+                "value": {
+                  "input": {
+                    "text": "Pay raise"
+                  }
+                }
+              },
+              {
+                "label": "Boss issue",
+                "value": {
+                  "input": {
+                    "text": "Boss issue"
+                  }
+                }
+              },
+              {
+                "label": "Personal issues",
+                "value": {
+                  "input": {
+                    "text": "Personal issues"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_6_1593079774247",
+      "conditions": "@joining:immediately ||  @joining:(within 30 days) || @joining:(more than 30 days)",
+      "dialog_node": "node_9_1593603442863"
+    },
+    {
+      "type": "standard",
+      "title": "nlp3",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Where can NER be used?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_10_1593947758932",
+      "conditions": "#NER",
+      "dialog_node": "node_10_1593947810133"
+    },
+    {
+      "type": "standard",
+      "title": "IfChoseNightshifts",
+      "output": {
+        "generic": [
+          {
+            "title": "Well we assume Night Shifts do not have any internet issues ?",
+            "options": [
+              {
+                "label": "If we are right, click here",
+                "value": {
+                  "input": {
+                    "text": "If we are right, click here"
+                  }
+                }
+              },
+              {
+                "label": "If not, click here",
+                "value": {
+                  "input": {
+                    "text": "If not, click here"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_10_1593613717569",
+      "conditions": "@ifchoseWFH:(Night Shifts)",
+      "dialog_node": "node_10_1593670036213",
+      "previous_sibling": "node_1_1593669314176"
+    },
+    {
+      "type": "standard",
+      "title": "TimeToWork",
+      "output": {
+        "generic": [
+          {
+            "title": "Is Internet Connectivity Proper at your Area ?",
+            "options": [
+              {
+                "label": "Bad",
+                "value": {
+                  "input": {
+                    "text": "Bad"
+                  }
+                }
+              },
+              {
+                "label": "Optimum",
+                "value": {
+                  "input": {
+                    "text": "Optimum"
+                  }
+                }
+              },
+              {
+                "label": "Excellent",
+                "value": {
+                  "input": {
+                    "text": "Excellent"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_10_1593613717569",
+      "conditions": "@ifchoseWFH != \"Night Shifts\"",
+      "dialog_node": "node_1_1593669314176"
+    },
+    {
+      "type": "standard",
+      "title": "IfChoseNightshifts",
+      "output": {
+        "generic": [
+          {
+            "title": "Well we assume Night Shifts do not have any internet issues ?",
+            "options": [
+              {
+                "label": "If we are right, click here",
+                "value": {
+                  "input": {
+                    "text": "If we are right, click here"
+                  }
+                }
+              },
+              {
+                "label": "If not, click here",
+                "value": {
+                  "input": {
+                    "text": "If not, click here"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_26_1593948294214",
+      "conditions": "@ifchoseWFH:(Night Shifts)",
+      "dialog_node": "node_30_1593948294214",
+      "previous_sibling": "node_27_1593948294214"
+    },
+    {
+      "type": "standard",
+      "title": "TimeToWork",
+      "output": {
+        "generic": [
+          {
+            "title": "Is Internet Connectivity Proper at your Area ?",
+            "options": [
+              {
+                "label": "Bad",
+                "value": {
+                  "input": {
+                    "text": "Bad"
+                  }
+                }
+              },
+              {
+                "label": "Optimum",
+                "value": {
+                  "input": {
+                    "text": "Optimum"
+                  }
+                }
+              },
+              {
+                "label": "Excellent",
+                "value": {
+                  "input": {
+                    "text": "Excellent"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_26_1593948294214",
+      "conditions": "@ifchoseWFH != \"Night Shifts\"",
+      "dialog_node": "node_27_1593948294214"
+    },
+    {
+      "type": "standard",
+      "title": "previousJob",
+      "output": {
+        "generic": [
+          {
+            "title": "Why did you leave your pervious job",
+            "options": [
+              {
+                "label": "Pay raise",
+                "value": {
+                  "input": {
+                    "text": "Pay raise"
+                  }
+                }
+              },
+              {
+                "label": "Boss issue",
+                "value": {
+                  "input": {
+                    "text": "Boss issue"
+                  }
+                }
+              },
+              {
+                "label": "Personal issues",
+                "value": {
+                  "input": {
+                    "text": "Personal issues"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_21_1593948294214",
+      "conditions": "@joining:immediately ||  @joining:(within 30 days) || @joining:(more than 30 days)",
+      "dialog_node": "node_22_1593948294214"
+    },
+    {
+      "type": "standard",
+      "title": "3",
+      "parent": "node_2_1593936111976",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "@aptitude:(c.) || @aptitude:(a.)",
+      "dialog_node": "node_3_1593936907003"
+    },
+    {
+      "type": "standard",
+      "title": "contact soon - copy1",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Sorry but we are looking for a team player who has either industry experience or has done a team project."
+              },
+              {
+                "text": "Thank you ."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_35_1593948294214",
+      "conditions": "@teamProject:No",
+      "dialog_node": "node_37_1593948294214",
+      "previous_sibling": "node_36_1593948294214"
+    },
+    {
+      "type": "standard",
+      "title": "contact soon",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "You will be contacted shortly."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_35_1593948294214",
+      "conditions": "@teamProject:Yes",
+      "dialog_node": "node_36_1593948294214"
+    },
+    {
+      "type": "standard",
+      "title": "Ifyes",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Congratulation! , as you look good for our Interview Process you will be contacted soon for the same. Please wait for our mail"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_10_1593670036213",
+      "conditions": "@agreedisagree:(If yes click here)",
+      "dialog_node": "node_9_1593670926783",
+      "previous_sibling": "node_9_1593670764318"
+    },
+    {
+      "type": "standard",
+      "title": "IfNot",
+      "output": {
+        "generic": [
+          {
+            "title": "We are really sorry ,but good Internet Connectivity is a Strong Requirement for Work From Home feature.",
+            "options": [],
+            "description": "Try again sometime , Thank you for your time.",
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_10_1593670036213",
+      "conditions": "@agreedisagree:(If not click here)",
+      "dialog_node": "node_9_1593670764318"
+    },
+    {
+      "type": "standard",
+      "title": "if chose WFH",
+      "output": {
+        "generic": [
+          {
+            "title": "Which time would you prefer to work ?",
+            "options": [
+              {
+                "label": "Morning",
+                "value": {
+                  "input": {
+                    "text": "Morning"
+                  }
+                }
+              },
+              {
+                "label": "Afternoon",
+                "value": {
+                  "input": {
+                    "text": "Afternoon"
+                  }
+                }
+              },
+              {
+                "label": "Evening",
+                "value": {
+                  "input": {
+                    "text": "Evening"
+                  }
+                }
+              },
+              {
+                "label": "Night Shifts",
+                "value": {
+                  "input": {
+                    "text": "Night Shifts"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_9_1593603963074",
+      "conditions": "@WFH:(I prefer WORK FROM HOME)",
+      "dialog_node": "node_10_1593613717569",
+      "previous_sibling": "node_3_1593614655503"
+    },
+    {
+      "type": "standard",
+      "title": "Covid Alert",
+      "output": {
+        "generic": [
+          {
+            "title": "Are you well aware of various COVID-19 precautions ?",
+            "options": [
+              {
+                "label": "Yes",
+                "value": {
+                  "input": {
+                    "text": "Yes"
+                  }
+                }
+              },
+              {
+                "label": "No, But I will look into that",
+                "value": {
+                  "input": {
+                    "text": "No,But I will look into that"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_9_1593603963074",
+      "conditions": "@WFH != \"I prefer WORK FROM HOME\"",
+      "dialog_node": "node_3_1593614655503"
+    },
+    {
+      "type": "standard",
+      "title": "contact soon - copy1",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Sorry but we are looking for a team player who has either industry experience or has done a team project."
+              },
+              {
+                "text": "Thank you ."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_9_1593599145979",
+      "conditions": "@teamProject:No",
+      "dialog_node": "node_3_1593605231234",
+      "previous_sibling": "node_5_1593604698412"
+    },
+    {
+      "type": "standard",
+      "title": "contact soon",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "You will be contacted shortly."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_9_1593599145979",
+      "conditions": "@teamProject:Yes",
+      "dialog_node": "node_5_1593604698412"
+    },
+    {
+      "type": "standard",
+      "title": "sel2",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "CONGRATULATIONS ,"
+              },
+              {
+                "text": "According to your result , you're selected for the next process."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          },
+          {
+            "title": "Happy to move further?",
+            "options": [
+              {
+                "label": "yes",
+                "value": {
+                  "input": {
+                    "text": "yes"
+                  }
+                }
+              },
+              {
+                "label": "no",
+                "value": {
+                  "input": {
+                    "text": "no"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_5_1593939930386",
+      "conditions": "@selection:ten || @selection:eight || @selection:six",
+      "dialog_node": "node_4_1593941947902",
+      "previous_sibling": "node_7_1593941237671"
+    },
+    {
+      "type": "standard",
+      "title": "sel1",
+      "parent": "node_5_1593939930386",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_2_1594108780760"
+      },
+      "conditions": "@selection:two || @selection:zero || @selection:four",
+      "dialog_node": "node_7_1593941237671"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "CORRECT"
+              },
+              {
+                "text": "Make sure that you're Ticking the box for correct answer in-front of 4th question on you paper."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          },
+          {
+            "title": "all done?",
+            "options": [
+              {
+                "label": "all done",
+                "value": {
+                  "input": {
+                    "text": "all done"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_8_1593937704538",
+      "conditions": "@aptitude:(D.])",
+      "dialog_node": "response_6_1593937870081",
+      "previous_sibling": "response_6_1593937747604"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "WRONG"
+              },
+              {
+                "text": "Make sure that you're Ticking the box for wrong answer in-front of 4th question on you paper."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          },
+          {
+            "title": "all done?",
+            "options": [
+              {
+                "label": "all done",
+                "value": {
+                  "input": {
+                    "text": "all done"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_8_1593937704538",
+      "conditions": "@aptitude:(A.])",
+      "dialog_node": "response_6_1593937747604",
+      "previous_sibling": "node_3_1593938055548"
+    },
+    {
+      "type": "standard",
+      "title": "que5",
+      "output": {
+        "generic": [
+          {
+            "title": "A train passes a station platform in 36 seconds and a man standing on the platform in 20 seconds. If the speed of the train is 54 km/hr, what is the length of the platform?",
+            "options": [
+              {
+                "label": "1] 120 m",
+                "value": {
+                  "input": {
+                    "text": "1]"
+                  }
+                }
+              },
+              {
+                "label": " 2]\t240 m ",
+                "value": {
+                  "input": {
+                    "text": "2]"
+                  }
+                }
+              },
+              {
+                "label": "3]\t300 m",
+                "value": {
+                  "input": {
+                    "text": "3]"
+                  }
+                }
+              },
+              {
+                "label": "4]\tNone of these",
+                "value": {
+                  "input": {
+                    "text": "4]"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_8_1593937704538",
+      "conditions": "@aptitude:(all done)",
+      "dialog_node": "node_3_1593938055548"
+    },
+    {
+      "type": "standard",
+      "title": "cloud2",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Which are the different layers that define cloud architecture?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_10_1593947958602",
+      "conditions": "#CLOUD",
+      "dialog_node": "node_9_1593948009252"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "And your Email ID?"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "slot_8_1594622673233",
+      "event_name": "focus",
+      "dialog_node": "handler_2_1594622673257",
+      "previous_sibling": "handler_6_1594622673257"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_8_1594622673233",
+      "context": {
+        "email": "@email"
+      },
+      "conditions": "@email",
+      "event_name": "input",
+      "dialog_node": "handler_6_1594622673257"
+    },
+    {
+      "type": "standard",
+      "title": "cloud1",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "What is cloud computing?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_9_1593075913101",
+      "conditions": "@developer:(Cloud Developer)",
+      "dialog_node": "node_10_1593947958602",
+      "previous_sibling": "node_1_1593947692824"
+    },
+    {
+      "type": "standard",
+      "title": "nlp1",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "What does a NLP pipeline consist of?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_9_1593075913101",
+      "conditions": "@developer:(NLP Developer)",
+      "dialog_node": "node_1_1593947692824",
+      "previous_sibling": "node_7_1593944058126"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "title": "Here are the job openings we are actively recruiting for at SSON",
+            "options": [
+              {
+                "label": "Python Developer",
+                "value": {
+                  "input": {
+                    "text": "Python Developer"
+                  }
+                }
+              },
+              {
+                "label": "NLP Developer",
+                "value": {
+                  "input": {
+                    "text": "NLP Developer"
+                  }
+                }
+              },
+              {
+                "label": "cloud Developer",
+                "value": {
+                  "input": {
+                    "text": "cloud Developer"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_9_1593075913101",
+      "conditions": "@aptitude:yes",
+      "dialog_node": "response_10_1593077136069",
+      "previous_sibling": "node_10_1593947958602"
+    },
+    {
+      "type": "standard",
+      "title": "py1",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "who is the founder of python?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_9_1593075913101",
+      "conditions": "@developer:(Python developer)",
+      "dialog_node": "node_7_1593944058126"
+    },
+    {
+      "type": "standard",
+      "title": "developer",
+      "output": {
+        "generic": [
+          {
+            "title": "How many experience do you have?",
+            "options": [
+              {
+                "label": "Fresher",
+                "value": {
+                  "input": {
+                    "text": "Fresher"
+                  }
+                }
+              },
+              {
+                "label": "1-3 Years",
+                "value": {
+                  "input": {
+                    "text": "1-3 Years"
+                  }
+                }
+              },
+              {
+                "label": "4+ Years",
+                "value": {
+                  "input": {
+                    "text": "4+ Years"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_3_1593947595227",
+      "conditions": "@que_last || #py_code",
+      "dialog_node": "node_10_1593078236729"
+    },
+    {
+      "type": "standard",
+      "title": "5",
+      "parent": "node_3_1593938055548",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "@aptitude:(2]) || @aptitude:(1])",
+      "dialog_node": "node_8_1593938242891"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "CORRECT"
+              },
+              {
+                "text": "Make sure that you're Ticking the box for correct answer in-front of 1st question on you paper."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          },
+          {
+            "title": "DONE ?",
+            "options": [
+              {
+                "label": "DONE",
+                "value": {
+                  "input": {
+                    "text": "DONE"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_3_1593931958282",
+      "conditions": "@aptitude:A",
+      "dialog_node": "response_1_1593933179435",
+      "previous_sibling": "node_4_1593933439257"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "CORRECT"
+              },
+              {
+                "text": "Make sure that you're Ticking the box for correct answer in-front of 1st question on you paper."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          },
+          {
+            "title": "DONE?",
+            "options": [
+              {
+                "label": "DONE ",
+                "value": {
+                  "input": {
+                    "text": "DONE"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_3_1593931958282",
+      "conditions": "@aptitude:D",
+      "dialog_node": "response_7_1593935239989",
+      "previous_sibling": "response_1_1593933179435"
+    },
+    {
+      "type": "standard",
+      "title": "que2",
+      "output": {
+        "generic": [
+          {
+            "title": "A grocer has a sale of Rs. 6435, Rs. 6927, Rs. 6855, Rs. 7230 and Rs. 6562 for 5 consecutive months. How much sale must he have in the sixth month so that he gets an average sale of Rs. 6500?",
+            "options": [
+              {
+                "label": "1 : Rs. 4991 \t",
+                "value": {
+                  "input": {
+                    "text": "1\t"
+                  }
+                }
+              },
+              {
+                "label": "2 : Rs. 5991 ",
+                "value": {
+                  "input": {
+                    "text": "2"
+                  }
+                }
+              },
+              {
+                "label": "3 : Rs. 6001 ",
+                "value": {
+                  "input": {
+                    "text": "3"
+                  }
+                }
+              },
+              {
+                "label": "4 : Rs. 6991",
+                "value": {
+                  "input": {
+                    "text": "4"
+                  }
+                }
+              }
+            ],
+            "description": "que2",
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_3_1593931958282",
+      "conditions": "@aptitude:done",
+      "dialog_node": "node_4_1593933439257"
+    },
+    {
+      "type": "standard",
+      "title": "GoodInternet",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Congratulation! , as you look good for our Interview Process you will be contacted soon for the same. Please wait for our mail"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1593669314176",
+      "conditions": "@internetconnectivity != \"Bad\"",
+      "dialog_node": "node_10_1593670610843",
+      "previous_sibling": "node_4_1593670418541"
+    },
+    {
+      "type": "standard",
+      "title": "BadInternet",
+      "output": {
+        "generic": [
+          {
+            "title": "We are really sorry ,but good Internet Connectivity is a Strong Requirement for Work From Home feature.",
+            "options": [],
+            "description": "Try again sometime , Thank you for your time.",
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_1_1593669314176",
+      "conditions": "@internetconnectivity:Bad",
+      "dialog_node": "node_4_1593670418541"
+    },
+    {
+      "type": "standard",
+      "title": "developer - copy1 - copy1",
+      "output": {
+        "generic": [
+          {
+            "title": "How many experience do you have?",
+            "options": [
+              {
+                "label": "Fresher",
+                "value": {
+                  "input": {
+                    "text": "Fresher"
+                  }
+                }
+              },
+              {
+                "label": "1-3 Years",
+                "value": {
+                  "input": {
+                    "text": "1-3 Years"
+                  }
+                }
+              },
+              {
+                "label": "4+ Years",
+                "value": {
+                  "input": {
+                    "text": "4+ Years"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_9_1593948009252",
+      "conditions": "@que_last || #LAYERS",
+      "dialog_node": "node_20_1593948294210"
+    },
+    {
+      "type": "standard",
+      "title": "4",
+      "parent": "node_1_1593937450159",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "@aptitude:(A.]) || @aptitude:(D.])",
+      "dialog_node": "node_8_1593937704538"
+    },
+    {
+      "type": "standard",
+      "title": "Aptitude starting",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Be ready to give the Aptitude test. "
+              },
+              {
+                "text": "[While you're answering the questions  please, take a paper  and note down your correct one's and wrong one's for your own reference ,it will helpful for your next process.]"
+              },
+              {
+                "text": "count 2 marks for each correct answer."
+              },
+              {
+                "text": "And, count 0 for each wrong answer."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          },
+          {
+            "title": "Are you ready then?",
+            "options": [
+              {
+                "label": "Yeah",
+                "value": {
+                  "input": {
+                    "text": "yeah"
+                  }
+                }
+              },
+              {
+                "label": "Nope",
+                "value": {
+                  "input": {
+                    "text": "nope"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_7_1593073881615",
+      "conditions": "@email:email",
+      "dialog_node": "node_9_1593930671325",
+      "previous_sibling": "slot_8_1594622673233"
+    },
+    {
+      "type": "slot",
+      "parent": "node_7_1593073881615",
+      "variable": "$email",
+      "dialog_node": "slot_8_1594622673233"
+    },
+    {
+      "type": "standard",
+      "title": "GoodInternet",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Congratulation! , as you look good for our Interview Process you will be contacted soon for the same. Please wait for our mail"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_27_1593948294214",
+      "conditions": "@internetconnectivity != \"Bad\"",
+      "dialog_node": "node_29_1593948294214",
+      "previous_sibling": "node_28_1593948294214"
+    },
+    {
+      "type": "standard",
+      "title": "BadInternet",
+      "output": {
+        "generic": [
+          {
+            "title": "We are really sorry ,but good Internet Connectivity is a Strong Requirement for Work From Home feature.",
+            "options": [],
+            "description": "Try again sometime , Thank you for your time.",
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_27_1593948294214",
+      "conditions": "@internetconnectivity:Bad",
+      "dialog_node": "node_28_1593948294214"
+    },
+    {
+      "type": "standard",
+      "title": "no ex but yes project",
+      "output": {
+        "generic": [
+          {
+            "title": "Have you done any projects or currently doing one?",
+            "options": [
+              {
+                "label": "Yes",
+                "value": {
+                  "input": {
+                    "text": "Yes"
+                  }
+                }
+              },
+              {
+                "label": "No",
+                "value": {
+                  "input": {
+                    "text": "No"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_10_1593078236729",
+      "conditions": "@experience:Fresher",
+      "dialog_node": "node_2_1593158515412",
+      "previous_sibling": "node_6_1593079774247"
+    },
+    {
+      "type": "standard",
+      "title": "exp",
+      "output": {
+        "generic": [
+          {
+            "title": "How soon can you join us?",
+            "options": [
+              {
+                "label": "Immediately",
+                "value": {
+                  "input": {
+                    "text": "Immediately"
+                  }
+                }
+              },
+              {
+                "label": "within 30 days",
+                "value": {
+                  "input": {
+                    "text": " within 30 days"
+                  }
+                }
+              },
+              {
+                "label": "More than 30 days",
+                "value": {
+                  "input": {
+                    "text": "More than 30 days"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_10_1593078236729",
+      "conditions": "@experience:(1-3 years)",
+      "dialog_node": "node_6_1593079774247"
+    },
+    {
+      "type": "standard",
+      "title": "Ifyes",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Congratulation! , as you look good for our Interview Process you will be contacted soon for the same. Please wait for our mail"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_11_1593948269392",
+      "conditions": "@agreedisagree:(If yes click here)",
+      "dialog_node": "node_13_1593948269392",
+      "previous_sibling": "node_12_1593948269392"
+    },
+    {
+      "type": "standard",
+      "title": "IfNot",
+      "output": {
+        "generic": [
+          {
+            "title": "We are really sorry ,but good Internet Connectivity is a Strong Requirement for Work From Home feature.",
+            "options": [],
+            "description": "Try again sometime , Thank you for your time.",
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_11_1593948269392",
+      "conditions": "@agreedisagree:(If not click here)",
+      "dialog_node": "node_12_1593948269392"
+    },
+    {
+      "type": "standard",
+      "title": "no ex but yes project",
+      "output": {
+        "generic": [
+          {
+            "title": "Have you done any projects or currently doing one?",
+            "options": [
+              {
+                "label": "Yes",
+                "value": {
+                  "input": {
+                    "text": "Yes"
+                  }
+                }
+              },
+              {
+                "label": "No",
+                "value": {
+                  "input": {
+                    "text": "No"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_1_1593948269388",
+      "conditions": "@experience:(No experience)",
+      "dialog_node": "node_15_1593948269392",
+      "previous_sibling": "node_2_1593948269392"
+    },
+    {
+      "type": "standard",
+      "title": "exp",
+      "output": {
+        "generic": [
+          {
+            "title": "How soon can you join us?",
+            "options": [
+              {
+                "label": "Immediately",
+                "value": {
+                  "input": {
+                    "text": "Immediately"
+                  }
+                }
+              },
+              {
+                "label": "within 30 days",
+                "value": {
+                  "input": {
+                    "text": " within 30 days"
+                  }
+                }
+              },
+              {
+                "label": "More than 30 days",
+                "value": {
+                  "input": {
+                    "text": "More than 30 days"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_1_1593948269388",
+      "conditions": "@experience:(1-3 years)",
+      "dialog_node": "node_2_1593948269392"
+    },
+    {
+      "type": "standard",
+      "title": "After covid alert",
+      "output": {
+        "generic": [
+          {
+            "title": "Ok Then Be Ready for your Interview Good Luck",
+            "options": [],
+            "description": "we will contact you soon",
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_24_1593948294214",
+      "conditions": "@covidalert:yes || @covidalert:(No,But I will look into it)",
+      "dialog_node": "node_25_1593948294214"
+    },
+    {
+      "type": "standard",
+      "title": "yes project no team",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Sorry we are searching for the experienced candidate."
+              },
+              {
+                "text": "All The Best for your upcoming future."
+              },
+              {
+                "text": "Thank you"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "parent": "node_34_1593948294214",
+      "conditions": "@projects:No",
+      "dialog_node": "node_38_1593948294214",
+      "previous_sibling": "node_35_1593948294214"
+    },
+    {
+      "type": "standard",
+      "title": "yes project yes team",
+      "output": {
+        "generic": [
+          {
+            "title": "Was it a team project?",
+            "options": [
+              {
+                "label": "Yes",
+                "value": {
+                  "input": {
+                    "text": "Yes"
+                  }
+                }
+              },
+              {
+                "label": "No",
+                "value": {
+                  "input": {
+                    "text": "No"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_34_1593948294214",
+      "conditions": "@projects:Yes",
+      "dialog_node": "node_35_1593948294214"
+    },
+    {
+      "type": "standard",
+      "title": "nope",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "So sorry, But the test is necessary ."
+              },
+              {
+                "text": "Come again after your preparation."
+              },
+              {
+                "text": "Thank you."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "parent": "node_9_1593930671325",
+      "conditions": "@aptitude:nope",
+      "dialog_node": "node_9_1593940537017",
+      "previous_sibling": "node_7_1593931152688"
+    },
+    {
+      "type": "standard",
+      "title": "que1",
+      "output": {
+        "generic": [
+          {
+            "title": "Find the greatest number that will divide 43, 91 and 183 so as to leave the same remainder in each case.",
+            "options": [
+              {
+                "label": "A - 4",
+                "value": {
+                  "input": {
+                    "text": "A"
+                  }
+                }
+              },
+              {
+                "label": "B - 7",
+                "value": {
+                  "input": {
+                    "text": "B"
+                  }
+                }
+              },
+              {
+                "label": "C - 9",
+                "value": {
+                  "input": {
+                    "text": "C"
+                  }
+                }
+              },
+              {
+                "label": "D - 13",
+                "value": {
+                  "input": {
+                    "text": "D"
+                  }
+                }
+              }
+            ],
+            "description": "que1",
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_9_1593930671325",
+      "conditions": "@aptitude:yeah",
+      "dialog_node": "node_7_1593931152688"
+    },
+    {
+      "type": "standard",
+      "title": "WFH_status - boss issues",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Sorry but all the up and downs are the part of our journey , try next time."
+              },
+              {
+                "text": "Thank you."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "parent": "node_22_1593948294214",
+      "conditions": "@earlyJob:(Boss issue) ||    @earlyJob:(Pay raise)",
+      "dialog_node": "node_33_1593948294214",
+      "previous_sibling": "node_23_1593948294214"
+    },
+    {
+      "type": "standard",
+      "title": "WFH_status",
+      "output": {
+        "generic": [
+          {
+            "title": "Are you willing to come to office for work(during COVID-19 situation)",
+            "options": [
+              {
+                "label": "Yes",
+                "value": {
+                  "input": {
+                    "text": "Yes"
+                  }
+                }
+              },
+              {
+                "label": "I prefer WORK FROM HOME",
+                "value": {
+                  "input": {
+                    "text": "I prefer WORK FROM HOME"
+                  }
+                }
+              },
+              {
+                "label": "Can come to office but WFH is prefered",
+                "value": {
+                  "input": {
+                    "text": "Can come to office but WFH is prefered"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_22_1593948294214",
+      "conditions": "@earlyJob:(Personal issues) ||    @earlyJob:(Pay raise)",
+      "dialog_node": "node_23_1593948294214"
+    },
+    {
+      "type": "standard",
+      "title": "yes project no team",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Sorry we are searching for the experienced candidate."
+              },
+              {
+                "text": "All The Best for your upcoming future."
+              },
+              {
+                "text": "Thank you"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "parent": "node_15_1593948269392",
+      "conditions": "@projects:No",
+      "dialog_node": "node_19_1593948269392",
+      "previous_sibling": "node_16_1593948269392"
+    },
+    {
+      "type": "standard",
+      "title": "yes project yes team",
+      "output": {
+        "generic": [
+          {
+            "title": "Was it a team project?",
+            "options": [
+              {
+                "label": "Yes",
+                "value": {
+                  "input": {
+                    "text": "Yes"
+                  }
+                }
+              },
+              {
+                "label": "No",
+                "value": {
+                  "input": {
+                    "text": "No"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_15_1593948269392",
+      "conditions": "@projects:Yes",
+      "dialog_node": "node_16_1593948269392"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "NO, WRONG."
+              },
+              {
+                "text": "Make sure that you're Ticking the box for wrong answer in-front of 2nd question on you paper."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          },
+          {
+            "title": "SET ?",
+            "options": [
+              {
+                "label": "SET",
+                "value": {
+                  "input": {
+                    "text": "SET"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_5_1593933911580",
+      "conditions": "@aptitude:2",
+      "dialog_node": "response_5_1593933975657",
+      "previous_sibling": "response_5_1593933922433"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "YES, CORRECT"
+              },
+              {
+                "text": "Make sure that you're Ticking the box for correct answer in-front of 2nd question on you paper."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "SET ?",
+            "options": [
+              {
+                "label": "SET",
+                "value": {
+                  "input": {
+                    "text": "SET"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_5_1593933911580",
+      "conditions": "@aptitude:1",
+      "dialog_node": "response_5_1593933922433",
+      "previous_sibling": "node_2_1593936111976"
+    },
+    {
+      "type": "standard",
+      "title": "que3",
+      "output": {
+        "generic": [
+          {
+            "title": "The average weight of 8 person's increases by 2.5 kg when a new person comes in place of one of them weighing 65 kg. What might be the weight of the new person?",
+            "options": [
+              {
+                "label": "a. : 50 kg",
+                "value": {
+                  "input": {
+                    "text": "a."
+                  }
+                }
+              },
+              {
+                "label": "b.:\t76.5 kg ",
+                "value": {
+                  "input": {
+                    "text": "b."
+                  }
+                }
+              },
+              {
+                "label": "c. : \t85 kg ",
+                "value": {
+                  "input": {
+                    "text": "c."
+                  }
+                }
+              },
+              {
+                "label": "d. : \tData inadequate",
+                "value": {
+                  "input": {
+                    "text": "d."
+                  }
+                }
+              }
+            ],
+            "description": "que3",
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_5_1593933911580",
+      "metadata": {
+        "_customization": {
+          "mcr": false
+        }
+      },
+      "conditions": "@aptitude:set",
+      "dialog_node": "node_2_1593936111976"
+    },
+    {
+      "type": "standard",
+      "title": "developer - copy1",
+      "output": {
+        "generic": [
+          {
+            "title": "How many experience do you have?",
+            "options": [
+              {
+                "label": "Fresher",
+                "value": {
+                  "input": {
+                    "text": "Fresher"
+                  }
+                }
+              },
+              {
+                "label": "1-3 Years",
+                "value": {
+                  "input": {
+                    "text": "1-3 Years"
+                  }
+                }
+              },
+              {
+                "label": "4+ Years",
+                "value": {
+                  "input": {
+                    "text": "4+ Years"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_10_1593947810133",
+      "conditions": "@que_last || #LAYERS",
+      "dialog_node": "node_1_1593948269388"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "CORRECT"
+              },
+              {
+                "text": "Make sure that you're Ticking the box for correct answer in-front of 5th question on you paper."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          },
+          {
+            "title": "READY FOR THE NEXT ?",
+            "options": [
+              {
+                "label": "Yes , I'm ready.",
+                "value": {
+                  "input": {
+                    "text": "READY FOR THE NEXT"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_8_1593938242891",
+      "conditions": "@aptitude:(2])",
+      "dialog_node": "response_10_1593938485616",
+      "previous_sibling": "node_5_1593939930386"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "WRONG"
+              },
+              {
+                "text": "Make sure that you're Ticking the box for wrong answer in-front of 5th question on you paper."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          },
+          {
+            "title": "READY FOR THE NEXT ?",
+            "options": [
+              {
+                "label": "YES  , I'm ready.",
+                "value": {
+                  "input": {
+                    "text": "READY FOR THE NEXT"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_8_1593938242891",
+      "conditions": "@aptitude:(1])",
+      "dialog_node": "response_9_1593938649573",
+      "previous_sibling": "response_10_1593938485616"
+    },
+    {
+      "type": "standard",
+      "title": "selection",
+      "output": {
+        "generic": [
+          {
+            "title": "Total marks",
+            "options": [
+              {
+                "label": "0",
+                "value": {
+                  "input": {
+                    "text": "Zero"
+                  }
+                }
+              },
+              {
+                "label": "2",
+                "value": {
+                  "input": {
+                    "text": "Two"
+                  }
+                }
+              },
+              {
+                "label": "4",
+                "value": {
+                  "input": {
+                    "text": "Four"
+                  }
+                }
+              },
+              {
+                "label": "6",
+                "value": {
+                  "input": {
+                    "text": "Six"
+                  }
+                }
+              },
+              {
+                "label": "8",
+                "value": {
+                  "input": {
+                    "text": "Eight"
+                  }
+                }
+              },
+              {
+                "label": "10",
+                "value": {
+                  "input": {
+                    "text": "Ten"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_8_1593938242891",
+      "conditions": "@aptitude:(READY FOR THE NEXT)",
+      "dialog_node": "node_5_1593939930386"
+    },
+    {
+      "type": "standard",
+      "title": "py3",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": " What is __init__?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_4_1593947449576",
+      "conditions": "#modules",
+      "dialog_node": "node_5_1593947550668"
+    },
+    {
+      "type": "standard",
+      "title": "contact soon - copy1",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Sorry but we are looking for a team player who has either industry experience or has done a team project."
+              },
+              {
+                "text": "Thank you ."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_16_1593948269392",
+      "conditions": "@teamProject:No",
+      "dialog_node": "node_18_1593948269392",
+      "previous_sibling": "node_17_1593948269392"
+    },
+    {
+      "type": "standard",
+      "title": "contact soon",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "You will be contacted shortly."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_16_1593948269392",
+      "conditions": "@teamProject:Yes",
+      "dialog_node": "node_17_1593948269392"
+    },
+    {
+      "type": "standard",
+      "title": "py4",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Solve the given code and write your answer . :"
+              },
+              {
+                "text": ">>> def A(x):\n   def B():\n       print(x)\n   return B\n>>> A(7)()"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "parent": "node_5_1593947550668",
+      "conditions": "#init",
+      "dialog_node": "node_3_1593947595227"
+    },
+    {
+      "type": "standard",
+      "title": "previousJob",
+      "output": {
+        "generic": [
+          {
+            "title": "Why did you leave your pervious job",
+            "options": [
+              {
+                "label": "Pay raise",
+                "value": {
+                  "input": {
+                    "text": "Pay raise"
+                  }
+                }
+              },
+              {
+                "label": "Boss issue",
+                "value": {
+                  "input": {
+                    "text": "Boss issue"
+                  }
+                }
+              },
+              {
+                "label": "Personal issues",
+                "value": {
+                  "input": {
+                    "text": "Personal issues"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_2_1593948269392",
+      "conditions": "@joining:immediately ||  @joining:(within 30 days) || @joining:(more than 30 days)",
+      "dialog_node": "node_3_1593948269392"
+    },
+    {
+      "type": "standard",
+      "title": "Anything else",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "I didn't understand. You can try rephrasing."
+              },
+              {
+                "text": "Can you reword your statement? I'm not understanding."
+              },
+              {
+                "text": "I didn't get your meaning."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "anything_else",
+      "dialog_node": "Anything else",
+      "previous_sibling": "node_7_1593073881615",
+      "disambiguation_opt_out": true
+    },
+    {
+      "type": "standard",
+      "title": "intro",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "So let's start ,"
+              },
+              {
+                "text": "Tell me your name and your email id:"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "conditions": "#introduction",
+      "dialog_node": "node_7_1593073881615",
+      "previous_sibling": "Welcome"
+    },
+    {
+      "type": "standard",
+      "title": "Welcome",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Hello. I am RecruiteBot"
+              },
+              {
+                "text": "I have been assigned to Pre-qualify candidates and schedule an interview for SSON Company "
+              },
+              {
+                "text": "So what'sup?"
+              },
+              {
+                "text": "All  good?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "conditions": "welcome",
+      "dialog_node": "Welcome"
+    }
+  ],
+  "counterexamples": [],
+  "system_settings": {
+    "off_topic": {
+      "enabled": true
+    },
+    "disambiguation": {
+      "prompt": "Did you mean:",
+      "enabled": true,
+      "randomize": true,
+      "max_suggestions": 5,
+      "suggestion_text_policy": "title",
+      "none_of_the_above_prompt": "None of the above"
+    },
+    "system_entities": {
+      "enabled": true
+    },
+    "human_agent_assist": {
+      "prompt": "Did you mean:"
+    },
+    "spelling_auto_correct": true
+  },
+  "learning_opt_out": false,
+  "name": "AI RECRUITER",
+  "language": "en",
+  "description": "which screens the candidate application, shortlists for interview and identify his skills"
+}
